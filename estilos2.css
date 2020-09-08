@@ -1,6 +1,114 @@
-h1 {
-font-size:60px;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: medium;
-background-color: indigo;
+{
+    margin:0;
+    padding:0;
 }
+h1 {
+font-size:100px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:bold;
+}
+h2 {
+    font:bolder;
+    font-family:fantasy;
+}
+
+header,aside,section,footer,article,nav,hgroup {
+    display:block;
+}
+body {
+    text-align: center;
+background:#ffcece}
+    
+    .agrupar {
+        width: 980px;
+        border: 1px solid black;
+        background: #f8b8f8;
+        margin-bottom: 20px auto; }
+
+        .header {
+            background: #f038d0;
+            border: 2px solid black
+        } 
+        .header h1 {
+            text-align: center;
+        }
+            
+        .menu {
+            background:#f868e8;
+            padding:15px;
+            text-align: center ;
+        }
+         .menu li {
+             list-style: none;
+             margin:10px;
+             border:5px solid black;
+             background:#f898ef;
+             border:1px
+            
+         }
+         .seccion {
+             margin:20px;
+             width: 600px;
+            
+             float:right;
+             
+        
+         }
+         article { background:#f890f8;
+            border:1px solid black;
+            padding:20px;
+            margin-bottom:15px;
+        
+         }
+         time {color:#f038d0}
+        
+         article footer{
+             text-align:right ;
+             margin-top: 20px ;
+        
+         }
+         .columna {
+             width:300px;
+             
+             float:left;
+             margin: 20px 0;
+             
+         }
+         .columna blockquote{
+             border:1px solid #f038d0;
+             padding:40px;
+             background:#f898e8;
+             margin-bottom:20px;
+        
+         }
+         .pie {
+             clear: both;
+             padding:20px;
+             background:#f038d0;
+             color:#ffffff;
+        
+         }
+         
+         .columna .lista
+           {
+            width:200px;
+            float:right;
+            margin:20px 0;
+            border:1px solid #f038d0;
+            padding:40px;
+            background:#ffcece;
+            margin-top: auto;
+
+         }
+         .lista .sublista {
+             border: 1px solid black;
+            background:#f868e8;
+            padding:20px;
+            margin-bottom: 10px;
+
+         }
+         img {
+             width:140px;
+             display:block;
+             margin:20px auto;
+         }
