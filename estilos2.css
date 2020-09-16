@@ -15,6 +15,7 @@ h2 {
 
 header,aside,section,footer,article,nav,hgroup {
     display:block;
+    text-align: center;
 }
 #titulo {
     text-shadow: darkgreen 8px 8px ;
@@ -28,15 +29,16 @@ background:#ffcece}
     .agrupar {
         width: 980px;
         border: 1px solid black;
-        background: #ffb09c;
+        background: url(body.jpeg);
         margin-bottom: 20px auto; }
 
         .header {
-            background:-webkit-radial-gradient(center, #1ad09d,#0a8663 );
+            background: url(images.jpg);
             border: 2px solid black;
             margin: 150px ;
             border-radius:10px;
-            -webkit-transition: -webkit-transform ls ease 0.8s;
+            -webkit-transition: -webkit-transform ls ease 0.3s;
+            text-align: center;
         } 
         .header:hover{
             -webkit-transform:rotate(5deg) ;
@@ -112,7 +114,7 @@ background:#ffcece}
             margin-bottom: 10px;
             border:5px solid black;
             float:right;
-            -webkit-transition:-webkit-transform lsease 0.8s;
+            -webkit-transition:-webkit-transform lsease 0.3s;
             
     
          }
