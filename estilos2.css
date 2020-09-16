@@ -112,6 +112,7 @@ background:#ffcece}
             margin-bottom: 10px;
             border:5px solid black;
             float:right;
+            -webkit-transition:-webkit-transform lsease 0.8s;
             
     
          }
@@ -122,6 +123,9 @@ background:#ffcece}
              
              background:#fff6a1;
              margin-bottom: 5px;
+            }
+            .columna:hover{
+                -webkit-transform:skew(3deg)
             }
              
              
