@@ -18,6 +18,8 @@ header,aside,section,footer,article,nav,hgroup {
 }
 #titulo {
     text-shadow: darkgreen 8px 8px ;
+    -webkit-transform: skew(25deg);
+   
 }
 body {
     text-align: center;
@@ -30,23 +32,32 @@ background:#ffcece}
         margin-bottom: 20px auto; }
 
         .header {
-            background: #1ad09d;
-            border: 2px solid black
+            background:-webkit-radial-gradient(center, #1ad09d,#0a8663 );
+            border: 2px solid black;
+            margin: 150px ;
+            border-radius:10px;
+            -webkit-transition: -webkit-transform ls ease 0.8s;
         } 
+        .header:hover{
+            -webkit-transform:rotate(5deg) ;
+        }
         .header h1 {
             text-align: center;
+            
         }
             
         .menu {
             background:#9de587;
             padding:15px;
             text-align: center ;
+            
         }
          .menu li {
              list-style: none;
              margin:10px;
              border:5px solid black;
              background:#fff6a1;
+             display: inline;
              
             
          }
@@ -101,6 +112,8 @@ background:#ffcece}
             margin-bottom: 10px;
             border:5px solid black;
             float:right;
+            
+    
          }
          .lista .sublista {
             
