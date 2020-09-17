@@ -1,1 +1,64 @@
-#charset *utf-8*
+html,body,h1,h2,p,blockquote {
+    padding:0;
+    margin:0;
+    font-size:100%;
+    font-weight:normal;
+}
+body{  
+ font-size:62.5%;
+ background: url(fondo2.jpg);
+}
+h1{
+    font:normal 2.4em verdana, sans-serif;
+    background: -webkit-linear-gradient(top,#e2adf7,#c271e2);
+    width: 45%;
+    border-radius: 10px;
+    margin:15px auto;
+    text-align: center;
+    padding:15px;
+    color:white;
+    box-shadow: violet 5px 5px 10px;
+    text-shadow: white 2px 2px 5px;
+}
+h2{
+    font:bold 2.7em verdana,sans-serif;
+    margin:0;
+    padding:5px 0 5px 5px;
+    color:rgb(39, 27, 39);
+}
+section{
+    width: 91%;
+    border-top: 2px dashed #771f9b;
+    margin:15px auto;
+}
+figure{
+    float:left;
+}
+figure img{
+    padding:10px;
+    background:#771f9b;
+    border-radius: 20px;
+    -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+}
+figure img:hover{
+    -webkit-transform:scale(1.2);
+}
+figcaption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 5px;
+    color:black bold;
+
+}
+footer{
+    clear:both;
+    padding-top:500px;
+}
+footer p{
+    font:3.0em bold Arial;
+    color:rgb(3, 3, 3);
+    margin:10px 8px;
+    text-align: center;
+    background: -webkit-linear-gradient(top,#e2adf7,#c271e2);
+}
